@@ -8,12 +8,16 @@ JavaScript course for Zfort company.
 - Variables
 - Data types
 - Operators
-- Type conversion
 - Control flow
+- Type conversion
 - Loops
 
 ### 2. Data manipulation
 - Numbers
 - Strings
-- Arrays
 - Objects
+- Arrays
+- Pass by value vs pass by reference
+- Accessors, setters, getters and descriptors
+- Data transformation
+- JSON

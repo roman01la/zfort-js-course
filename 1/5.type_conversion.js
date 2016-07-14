@@ -18,7 +18,7 @@
 
 
 /* To String */
-
+123.toString()
 (123).toString() // '123'
 String(123) // '123'
 123 + '' // '123'

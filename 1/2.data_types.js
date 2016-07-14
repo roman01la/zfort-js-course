@@ -5,7 +5,13 @@
 
 /* String */
 'string'
+"sdhkjdshg"
 
+typeof 'fdgfdgk' // string
+typeof String('dkfjghf') // object
+
+var x = 'sjdkfdkjgh'
+typeof x // 'string'
 typeof 'string' // 'string'
 
 /* Number */
@@ -42,6 +48,12 @@ typeof undefined // 'undefined'
 new Object()
 
 /* Object literal */
-{}
+{
+  gdf: 'dfgfg',
+}
 
 typeof {} // 'object'
+
+typeof function() {
+
+} // function

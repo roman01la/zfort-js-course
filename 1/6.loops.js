@@ -2,9 +2,10 @@
 
 /* `for` statement */
 
-for (var i = 0; i < 10; i++) {
 
-  console.log(i);
+for (var i = 0; i < 10; ++i {
+
+  console.log(i); // 1
 
   if (i === 3) {
     break;
