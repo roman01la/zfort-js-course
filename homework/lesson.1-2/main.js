@@ -1,4 +1,4 @@
-json // JSON data is in `json` global variable
+json // JSON data is assigned to `json` global variable which is declared in `json.js` file
 
 /*
  * 1. Fix and convert balance value to number
