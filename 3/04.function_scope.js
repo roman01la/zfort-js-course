@@ -21,3 +21,9 @@ function fn2() {
 
   console.log(x); // 2
 }
+
+for (var i = 0; i < 5; i++) {
+  setTimeout(function() {
+    console.log(i);
+  });
+}
