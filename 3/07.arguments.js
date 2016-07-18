@@ -1,4 +1,6 @@
-function fn() {
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments
+
+function fn(a,b) {
   return arguments;
 }
 

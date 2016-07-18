@@ -1,3 +1,6 @@
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+// https://learn.javascript.ru/functions-closures
+
 function fn() {
 
   var a = 1;

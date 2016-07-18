@@ -1,3 +1,6 @@
+// https://medium.com/javascript-scene/curry-or-partial-application-8150044c78b8#.kvzrynqjt
+// http://raganwald.com/2013/03/07/currying-and-partial-application.html
+
 /* Order of function's arguments is important
  * for partial application and currying
  */
@@ -16,6 +19,15 @@ function partial(fn, a, b, c) {
 var handleClick = partial(onClick, 1, 2, 3);
 
 element.addEventListener('click', handleClick);
+
+function add(a,b) {
+  return a + b;
+}
+
+var add10 = partial(add, 10);
+
+add10(10) // 20
+add10(4) // 14
 
 // partial
 function partial() {
@@ -37,6 +49,14 @@ function listen(type) {
     }
   }
 }
+
+function add(a,b,c,d) {
+
+}
+
+var addc = curry(add)
+
+addc(1)(2)(3)(4)
 
 var onClick = listen('click');
 

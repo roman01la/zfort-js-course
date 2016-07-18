@@ -1,3 +1,5 @@
+// https://learn.javascript.ru/bind
+
 function fn(a, b, c) {
   console.log(this, a, b, c);
 }

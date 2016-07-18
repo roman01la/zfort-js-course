@@ -1,3 +1,7 @@
+// https://learn.javascript.ru/recursion
+// http://www.integralist.co.uk/posts/js-recursion.html
+// http://www.2ality.com/2015/06/tail-call-optimization.html
+
 function range(from, to, coll) {
 
   coll = coll || [];

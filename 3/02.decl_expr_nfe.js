@@ -1,3 +1,5 @@
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
+
 /* Function declaration */
 
 add(1, 2); // 3

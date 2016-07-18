@@ -20,7 +20,7 @@ fn(arguments);
 add(1, 2);
 
 
-/* Functions are forst-class citizens */
+/* Functions are first-class citizens */
 
 // function can accept functions
 function map(fn, coll) {
