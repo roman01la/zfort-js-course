@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Audio Player</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <audio src="" class="player" controls></audio>
+
+  <script src="js/main.js"></script>
+
+  <script>
+    var playlist = [
+      {
+        title: 'Datassette',
+        url: 'http://datashat.net/music_for_programming_1-datassette.mp3'
+      },
+      {
+        title: 'Com Truise',
+        url: 'http://datashat.net/music_for_programming_4-com_truise.mp3'
+      },
+      {
+        title: 'Gods Of The New Age',
+        url: 'http://datashat.net/music_for_programming_6-gods_of_the_new_age.mp3'
+      },
+    ];
+
+    var audioElement = document.querySelector('.player');
+
+    audioPlayer.init(audioElement, playlist);
+  </script>
+
+</body>
+</html>
