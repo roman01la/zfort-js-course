@@ -39,3 +39,26 @@ JavaScript course for Zfort company.
 - Method definition
 - Execution context, `this`
 - Changing execution context using `call`, `apply` and `bind`
+
+### 5. Object-Oriented JavaScript
+- `prototype` and `__proto__` objects
+- Classes, methods, properties
+- Inheritance
+- `instanceof` operator
+- Mixins
+
+### 6. JavaScript modules
+- What is a module and why it's important
+- Modules via closures
+- Types of modules
+
+### 7. Errors and error handling
+- `Error` object
+- Types of errors
+- User-defined errors
+- Error handling
+
+### 8. Regular expressions
+- Creating a regular expression
+- Using with strings
+- Advanced patterns
