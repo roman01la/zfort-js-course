@@ -33,3 +33,9 @@ JavaScript course for Zfort company.
 - `Function.prototype.length`
 - Partial application and currying
 - Recursion
+
+### 4. Methods and execution context
+- Function vs method
+- Method definition
+- Execution context, `this`
+- Changing execution context using `call`, `apply` and `bind`
