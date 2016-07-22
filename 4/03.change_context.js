@@ -1,3 +1,6 @@
+// https://learn.javascript.ru/bind
+// http://getinstance.info/articles/javascript/call-apply-and-bind-functions/
+
 function fn() {
   console.log(this);
 }

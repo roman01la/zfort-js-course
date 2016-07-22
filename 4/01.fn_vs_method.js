@@ -1,3 +1,5 @@
+// https://learn.javascript.ru/object-methods
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions
 
 // Function
 function myFn(x) {
