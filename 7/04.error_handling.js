@@ -31,7 +31,7 @@ try {
 } catch (error) {
   console.log(error.message); // 'oooops!'
 } finally {
- console.log('Code execution is done');
+  console.log('Code execution is done');
 }
 
 
