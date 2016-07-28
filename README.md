@@ -62,3 +62,17 @@ JavaScript course for Zfort company.
 - Creating a regular expression
 - Using with strings
 - Advanced patterns
+
+### 9. DOM
+- Things to know about DOM
+- Selecting elements
+- Querying DOM
+- Attributes
+- Measuring elements
+- `class` attribute
+- Text
+- Manipulating elements
+- Styles
+- Node types
+- Create elements
+- DOM optimizations
