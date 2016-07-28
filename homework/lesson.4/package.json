@@ -1,0 +1,12 @@
+{
+  "name": "app",
+  "scripts": {
+    "start": "watchify src/index.js -o dist/bundle.js -dv",
+    "build": "browserify -t uglifyify src/index.js -o dist/bundle.js -v"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "uglifyify": "^3.0.2",
+    "watchify": "^3.7.0"
+  }
+}
