@@ -1,0 +1,45 @@
+.file-system {
+  font: normal 14px sans-serif;
+  color: #242424;
+}
+
+.file-system .node {
+  margin: 10px 0;
+}
+
+.file-system .node {
+  margin-left: 10px;
+}
+
+.file-system .name {
+  padding: 2px 4px;
+  border-radius: 2px
+}
+
+.file-system .directory > .name {
+  background: green;
+  color: white;
+}
+
+.file-system .file > .name {
+  background: #242424;
+  color: white;
+}
+
+.file-system .file.js > .name {
+  position: relative;
+}
+
+.file-system .file.js > .name:after {
+  content: 'JS';
+  display: block;
+  color: black;
+  font-size: 10px;
+  position: absolute;
+  top: 3px;
+  right: -19px;
+  background: yellow;
+  padding: 0 1px;
+  border-radius: 2px;
+  border: 1px solid #242424;
+}
