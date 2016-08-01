@@ -77,7 +77,7 @@ JavaScript course for Zfort company.
 - Create elements
 - DOM optimizations
 
-### 9. DOM events
+### 10. DOM events
 - Adding event listeners
 - `event` object
 - Event flow (capturing and bubbling)
