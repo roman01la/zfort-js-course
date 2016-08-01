@@ -76,3 +76,12 @@ JavaScript course for Zfort company.
 - Node types
 - Create elements
 - DOM optimizations
+
+### 9. DOM events
+- Adding event listeners
+- `event` object
+- Event flow (capturing and bubbling)
+- Event delegation
+- Declaring behavior with event delegation
+- `event.preventDefault()`
+- Custom events
