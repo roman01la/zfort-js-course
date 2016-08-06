@@ -85,3 +85,9 @@ JavaScript course for Zfort company.
 - Declaring behavior with event delegation
 - `event.preventDefault()`
 - Custom events
+
+### 11. Event loop and async execution
+- Timers: `setTimeout` and `setInterval`
+- Event loop
+- Callbacks
+- Promises
