@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "name": "pizza",
+      "price": 40,
+      "src": "images/pizza.svg"
+    },
+    {
+      "name": "salami",
+      "price": 3,
+      "src": "images/salami.svg"
+    },
+    {
+      "name": "tomato",
+      "price": 2,
+      "src": "images/tomato.svg"
+    },
+    {
+      "name": "bacon",
+      "price": 4,
+      "src": "images/bacon.svg"
+    },
+    {
+      "name": "cheeze",
+      "price": 3,
+      "src": "images/cheeze.svg"
+    },
+    {
+      "name": "green",
+      "price": 1,
+      "src": "images/green.svg"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "watchify src/index.js -o dist/bundle.js -dv",
+    "server": "static -p 3000"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "node-static": "^0.7.8",
+    "watchify": "^3.7.0"
+  }
+}

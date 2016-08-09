@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza App</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <div class="app">
+
+    <div class="top-block">
+
+      <div class="viewport">
+        <div class="container">
+          <div class="inner">
+            <ul class="list">
+
+              <!-- Pizza -->
+              <li class="pizza-item">
+                <span class="num">1</span>
+                <img src="" width="300" height="300" />
+                <ul></ul>
+              </li>
+              <!-- /Pizza -->
+
+            </ul>
+          </div>
+        </div>
+        <button class="add-pizza">add pizza</button>
+      </div>
+
+      <div class="ingredients-selector">
+        <ul>
+
+          <!-- Ingredient selector -->
+          <li>
+            <img src="" class="ingredient-item" />
+          </li>
+          <!-- /Ingredient selector -->
+
+        </ul>
+      </div>
+
+    </div>
+
+    <table class="basket">
+      <thead>
+        <tr>
+          <td>#</td>
+          <td>Ingredients</td>
+          <td>Total</td>
+          <td>Remove?</td>
+        </tr>
+      </thead>
+      <tbody class='orders'>
+
+        <!-- Order row -->
+        <tr>
+          <td class="num">
+            <button class="select-num">1</button>
+          </td>
+          <td class="ingredients"></td>
+          <td class="total">40</td>
+          <td>
+            <button class="remove">&times;</button>
+          </td>
+        </tr>
+        <!-- /Order row -->
+
+      </tbody>
+    </table>
+
+  </div>
+
+  <script src="dist/bundle.js"></script>
+
+</body>
+</html>

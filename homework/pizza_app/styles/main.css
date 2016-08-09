@@ -1,0 +1,123 @@
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.app {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2)
+}
+
+
+
+.viewport {
+  width: 400px;
+  height: 330px;
+  margin: 0 auto;
+  padding: 10px 0 30px;
+  position: relative;
+}
+
+
+
+.top-block {
+  display: flex;
+}
+.ingredients-selector ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.ingredients-selector li {
+  margin: 0 0 20px;
+}
+.ingredients-selector img {
+  width: 60px;
+}
+
+
+
+.add-pizza {
+  font-size: 20px;
+  color: #1da921;
+  background: #fbea1c;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 4px;
+  border: 2px solid #1da921;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+
+.inner {
+  width: 300px;
+  height: 330px;
+  overflow: hidden;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+  position: relative;
+  transition: 200ms transform ease-in-out;
+}
+.list li {
+  display: inline-block;
+  width: 300px;
+  height: 330px;
+}
+.list .num {
+  font: normal 20px sans-serif;
+}
+
+.pizza-item {
+  position: relative;
+}
+.pizza-item ul li {
+  position: absolute;
+  top: 140px;
+  left: 120px;
+}
+
+
+
+.basket {
+  width: 100%;
+  font: normal 14px sans-serif;
+  color: #242424;
+}
+
+.basket td {
+  padding: 6px;
+}
+
+.basket thead {
+  background: #ccc;
+}
+
+.basket tbody td {
+  border-bottom: 1px solid #666;
+}
+
+.basket .ingredient {
+  background: #f1af1c;
+  color: #fafafa;
+  padding: 2px 4px;
+  border-radius: 4px;
+  border: 1px solid #b76907;
+  margin: 0 2px;
+}
+
+.basket .ingredient .delete {
+  color: #666;
+  margin: 0 0 0 2px;
+}

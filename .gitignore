@@ -3,3 +3,6 @@ homework/lesson.4/node_modules
 NOTES.md
 app_modular/node_modules
 app_modular/dist
+homework/pizza_app/node_modules
+homework/pizza_app/src
+homework/pizza_app/dist/bundle.js
