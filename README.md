@@ -91,3 +91,10 @@ JavaScript course for Zfort company.
 - Event loop
 - Callbacks
 - Promises
+
+### 12. Network
+- HTTP
+- AJAX
+- Fetch API
+- Cross-domain requests
+- WebSockets
