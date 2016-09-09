@@ -98,3 +98,7 @@ JavaScript course for Zfort company.
 - Fetch API
 - Cross-domain requests
 - WebSockets
+
+### 13. ES2015+
+- Strict mode
+- ES2015+
