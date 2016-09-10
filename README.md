@@ -102,3 +102,10 @@ JavaScript course for Zfort company.
 ### 13. ES2015+
 - Strict mode
 - ES2015+
+
+### 14. Design patterns
+- Singleton
+- Factory
+- Observer
+- Decorator
+- Mediator
