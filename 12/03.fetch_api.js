@@ -24,4 +24,4 @@ fetch('/user/123', {
   res.formData() // read response stream as FormData
   res.json() // read response stream as JSON
   res.text() // read response stream as Text
-})
+});

@@ -6,6 +6,8 @@ coll.size // 4
 coll.add(1); // Set {1, 2, 3, 0}
 coll.has(1); // true
 
+Array.from(coll)
+
 [...coll] // [1, 2, 3, 0]
 
 for (let x of coll) {
@@ -47,9 +49,13 @@ for (let key of map.keys()) {
 /* WeakSet, WeakMap */
 // http://stackoverflow.com/questions/29413222/what-are-the-actual-uses-of-es6-weakmap
 
+var map = new WeakMap();
+
 // private state
 const MyClass = (function() {
+
   const privateData = new WeakMap();
+
   return class MyClass {
     constructor(name, age) {
       privateData.set(this, { name, age });
@@ -59,6 +65,7 @@ const MyClass = (function() {
       return `User: ${name} of age ${age}.`;
     }
   }
+
 })();
 
 

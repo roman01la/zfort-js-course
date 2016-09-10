@@ -1,5 +1,22 @@
 // http://www.2ality.com/2015/02/es6-iteration.html
 
+const coll = {
+  [Symbol.iterator](n) {
+
+    let i = 0;
+
+    return {
+      next() {
+        if (i < n) {
+          return { done: false, value: i++ };
+        } else {
+          return { done: true, value: i++ };
+        }
+      }
+    }
+  }
+}
+
 const fibonacci = {
   [Symbol.iterator]() { // iterable protocol
     let pre = 0, cur = 1;

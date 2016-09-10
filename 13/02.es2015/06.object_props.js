@@ -9,8 +9,8 @@ const obj = { x, y }; // {x: 1, y: 2}
 
 function createUser(fname, lname, email) {
   return {
-    id: Math.random(),
     fullName: `${fname} ${lname}`,
+    id: Math.random(),
     fname,
     lname,
     email,

@@ -41,6 +41,12 @@ xhr.onload = function() {
   }
 };
 
+xhr.onerror = function() {
+  if (xhr.status === 404) {
+
+  }
+}
+
 xhr.send(JSON.stringify({
   name: 'John Doe'
 }));

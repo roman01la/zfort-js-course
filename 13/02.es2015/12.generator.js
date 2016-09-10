@@ -68,8 +68,6 @@ function fakeFetch(url) {
   }
 }
 
-
-
 // Generator methods
 class Clz {
   *bar() {

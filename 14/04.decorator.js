@@ -46,3 +46,23 @@ console.log( mb.cost() );
 
 // Outputs: 11.6
 console.log( mb.screenSize() );
+
+
+const logger = (...args) => console.log(...args);
+
+function requestLogDecorator(logger) {
+  return function(...args) {
+    logger('Request: ', Date.now(), ...args)
+  }
+}
+
+var serverLogger = requestLogDecorator(logger);
+serverLogger(1,2,3,4);
+
+@deprecated
+class MyClass {
+  @deprecated
+  asf() {
+
+  }
+}

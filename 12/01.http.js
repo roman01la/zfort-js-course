@@ -1,11 +1,11 @@
 /* Request methods */
 
-// GET
-// POST
-// PUT
-// DELETE
-// PATCH
-// OPTIONS
+// GET /user?filter=1&q=jsdgfhf
+// POST /users body: { name: "John" }
+// PUT /users/1 { email: "asd@asd.com" }
+// DELETE /users/1
+// PATCH /users/1 { email: "asd@asd.com" }
+// OPTIONS /users/1
 
 
 /* Status codes */

@@ -3,7 +3,7 @@
 
 const defaultOpts = {};
 
-function init(element, opts = defaultOpts) {
+function init(element, opts  defaultOpts) {
   // ...
 }
 

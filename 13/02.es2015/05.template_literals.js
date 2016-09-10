@@ -1,7 +1,7 @@
 
 
 const name = 'John';
-console.log(`Hello! My name is ${name}.`); // Hello! My name is John.
+console.log(`Hello! My name is ${this.name}.`); // Hello! My name is John.
 
 
 
