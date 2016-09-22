@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>tomato</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="tomato" transform="translate(2.000000, 2.000000)" stroke-width="4">
+            <g>
+                <circle id="Oval-4" stroke="#A43216" fill="#DB3C16" cx="30" cy="30" r="30"></circle>
+                <path d="M20,6.42105263 C20,6.42105263 23.6666667,4 31,4 C38.3333333,4 42,6.42105263 42,6.42105263 L31,27 L20,6.42105263 Z" id="Triangle" stroke="#EE7F49" stroke-linejoin="round" fill="#ED7F49"></path>
+                <path d="M34,21.4210526 C34,21.4210526 37.6666667,19 45,19 C52.3333333,19 56,21.4210526 56,21.4210526 L45,42 L34,21.4210526 Z" id="Triangle" stroke="#EE7F49" stroke-linejoin="round" fill="#ED7F49" transform="translate(45.000000, 30.500000) rotate(-270.000000) translate(-45.000000, -30.500000) "></path>
+                <path d="M19,36.4210526 C19,36.4210526 22.6666667,34 30,34 C37.3333333,34 41,36.4210526 41,36.4210526 L30,57 L19,36.4210526 Z" id="Triangle" stroke="#EE7F49" stroke-linejoin="round" fill="#ED7F49" transform="translate(30.000000, 45.500000) rotate(-180.000000) translate(-30.000000, -45.500000) "></path>
+                <path d="M5,21.4210526 C5,21.4210526 8.66666667,19 16,19 C23.3333333,19 27,21.4210526 27,21.4210526 L16,42 L5,21.4210526 Z" id="Triangle" stroke="#EE7F49" stroke-linejoin="round" fill="#ED7F49" transform="translate(16.000000, 30.500000) rotate(-90.000000) translate(-16.000000, -30.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

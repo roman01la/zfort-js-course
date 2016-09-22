@@ -1,0 +1,19 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/index.js -t babelify -p livereactload -o build/bundle.js"
+  },
+  "devDependencies": {
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "envify": "^3.4.1",
+    "livereactload": "^3.0.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-proxy": "^1.1.8",
+    "watchify": "^3.7.0"
+  }
+}
