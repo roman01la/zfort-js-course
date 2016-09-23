@@ -109,3 +109,6 @@ JavaScript course for Zfort company.
 - Observer
 - Decorator
 - Mediator
+
+### 15. React.js
+- [Introduction slides](https://docs.google.com/presentation/d/11CZGXIwPFmWFH3OoGWxLKyKlLyGHGTakDcPSXtXSX0o/edit?usp=sharing)
