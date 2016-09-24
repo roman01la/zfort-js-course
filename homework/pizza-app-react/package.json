@@ -1,7 +1,8 @@
 {
   "main": "index.js",
   "scripts": {
-    "start": "watchify src/index.js -t babelify -p livereactload -o build/bundle.js"
+    "start": "watchify src/index.js -t babelify -p livereactload -o build/bundle.js",
+    "build": "browserify src/index.js -t babelify -o build/bundle.js"
   },
   "devDependencies": {
     "babel-plugin-react-transform": "^2.0.2",
