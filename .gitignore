@@ -7,3 +7,5 @@ homework/pizza_app/node_modules
 homework/pizza_app/src
 homework/pizza_app/dist/bundle.js
 homework/pizza-app-react/node_modules
+homework/pizza-app-react/src
+homework/pizza-app-react/build

@@ -1,0 +1,16 @@
+{
+  "presets": ["es2015", "react"],
+  "env": {
+    "development": {
+      "plugins": [
+        "transform-class-properties",
+        ["react-transform", {
+          "transforms": [{
+            "transform": "livereactload/babel-transform",
+            "imports": ["react"]
+          }]
+        }]
+      ]
+    }
+  }
+}
